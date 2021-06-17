@@ -1,19 +1,18 @@
-package com.company;
 
-import java.util.Scanner;
-
-public class Main {
-    //for check
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String number = scanner.nextLine();
-        if (number.charAt(0) == '0') {
-            System.out.println("Not Duck number");
-        } else if (number.contains("0")) {
-            System.out.println("Duck number");
-        } else {
-            System.out.println("Not Duck number");
-        }
-    }
-}
+Task 4
+        Write a Java program to find and print the first 10 happy numbers.Happy number: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1, or it loops endlessly in a cycle which does not include 1.
+        Example: 19 is a happy number
+        12 + 92=82
+        82 + 22=68
+        62 + 82=100
+        12 + 02 + 02=1
+        Sample Output:
+        First 10 Happy numbers:
+        1
+        7
+        10
+        13
+        19
+        23
+        28
+        31
