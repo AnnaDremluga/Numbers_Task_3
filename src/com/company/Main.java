@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String number = scanner.nextLine();
-        if (number.charAt(0) == '0') {
+        if (number.charAt(0) == '0') { //  move all magic numbers and strings to constants with clear names.
             System.out.println("Not Duck number");
         } else if (number.contains("0")) {
             System.out.println("Duck number");
